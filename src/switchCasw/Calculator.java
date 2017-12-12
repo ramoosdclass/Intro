@@ -41,9 +41,10 @@ public static void Calculate(int num1, int num2, String operation) {
 		System.out.println("The quoitent is " + result);
 		break;
 	default:
+		if(num1 > 2) {
 		System.out.println("Please enter a valid operator" 
 	+ "Example: +, - , * , /");
-		
+		}	
 	}
 }
 	
